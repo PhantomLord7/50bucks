@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    background-color: rgb(0, 252, 252);
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.brand-logo {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: coral;
+    text-decoration: none;
+}
+
+.logotype {
+    margin-left: 10px;
+    flex: 0%;
+}
+
+
+.links {
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.links a {
+    margin: 0 10px 0 10px;
+    color: coral;
+    text-decoration: none;
+    font-weight: light;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.text-box {
+    margin: 250px;
+    width: 350px;
+    height: auto;
+}
+
+.text-box h1 {
+    color: black;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.text-box p {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.image-box {
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.image-box img {
+    width: 340px;
+    height: 340px;
+}
+
+.plates-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: space-around;
+        margin: 200;
+        margin-top: 300px;
+        margin-left: 150px;
+}
+
+.plate {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 100px 40px 100px 40px;
+    margin: 20px;
+}
+
+.plate a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profession {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    text-align: center;
+}
+
+.profession-text {
+    width: 920px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.friend-image-box {
+    margin-top: 170px;
+    
+}
+
+.friend-image-box img {
+    width: 300px;
+    height: 300px;
+}
